@@ -1,0 +1,19 @@
+###
+POST http://localhost:8080/v1/user/kick
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": "2",
+  "reason": "测试踢下线"
+}
+
+###
+POST http://localhost:8080/v1/user/disable
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": "2",
+  "reason": "测试禁用"
+}
